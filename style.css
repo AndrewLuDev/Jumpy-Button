@@ -10,5 +10,12 @@ button {
   /* Add some font style */
   font-size: 1.2em;
   font-weight: bold;
+  /* Add some hover effect */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+button:hover {
+  background-color: pink;
 }
 
